@@ -1,0 +1,29 @@
+{
+  "project_type": "javascript",
+  "debugMode": 1,
+  "showFPS": true,
+  "frameRate": 60,
+  "noCache": false,
+  "id": "gameCanvas",
+  "renderMode": 0,
+  "engineDir": "frameworks/cocos2d-html5",
+  "modules": [
+    "cocos2d"
+  ],
+  "jsList": [
+    "src/before.js",
+
+    "src/network/http.js",
+    "src/network/heart_beat.js",
+    "src/network/msg_factory.js",
+    "src/network/tcp_connection.js",
+    "src/resource.js",
+    "src/baseLayer.js",
+    "src/app.js",
+
+
+    "src/Notification/notification.js",
+
+    "src/util/global.js"
+  ]
+}
