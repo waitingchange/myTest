@@ -54,6 +54,9 @@ var HelloWorldLayer = h5.TYBaseLayer.extend({
     _removeListener: function() {
         this._super();
         h5.NotificationCenter.ignore("haha", this._onListen, this);
+    },onExit:function(){
+        this._super();
+
     }
 });
 
